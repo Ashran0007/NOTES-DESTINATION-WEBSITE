@@ -1,0 +1,144 @@
+*{
+    margin:0px;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+.navcontainer{
+border:2x solid #47beac;
+background: #3F3F3F;
+height:70px;
+width:100vw;
+position: fixed;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+box-shadow: 2px 2px 5px #47beac;
+}
+.sec1{
+   
+    border-radius:10px;
+    padding: 5px;
+    margin: 20px;
+}
+.sec1 h2{color:#47beac;}
+.sec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height:100%;
+    
+    }
+  .sec2 #a{
+    border: 1px solid white; 
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    color: #47beac;
+    transition: all 0.5s linear 0s;
+  }  
+  .sec2 #a:hover{
+    background: black;
+  }
+  .main{
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  #heading{
+    color: #47beac;
+    height: 70PX;
+    width: 100vw;
+   text-align: center;
+    font-size: 40px;
+    margin-bottom: 5px;
+    margin-top: 120px;
+
+  }
+  #box{
+    border: 2px solid #47beac;
+    border-radius: 2px;
+    box-shadow: 5px 5px #47beac;
+    height: 35%;
+    width: 30%;
+    margin: 10px;
+    padding-top: 20px;
+    text-align: center;
+    transition: all 0.5s linear 0s;
+  }
+  #box:hover{
+    background: #47beac;
+  }
+  #coursename{
+    color: beige;
+  }
+ p { color:beige ;}
+ #sem6{
+  color: beige;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#boxsem6{
+  border: 2px solid #47beac;
+    border-radius: 2px;
+    box-shadow: 5px 5px #47beac;
+    height: 300px;
+    width: 600px;
+    margin: 20px;
+    padding-top: 50px;
+    text-align: center;
+    transition: all 0.5s linear 0s;
+}
+#boxsem6:hover{
+  background: #47beac;
+}
+.footer{
+  background:#3F3F3F;
+  height: 300px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+#flbox1{
+  height:80px;
+  width: 450px;
+  display: flex;
+  padding: 10px;
+  padding-top:35px;
+  margin-left: 15px;
+  color: #47beac;
+}
+#b1{
+  display: flex;
+  align-items: top;
+  margin-right: 10px;
+}
+#b2 a{
+  text-decoration: none;
+  color: #47beac;
+}
+#footheading{
+  color:#47beac;
+  padding-top: 35px;
+}
+#para{
+  color: #47beac;
+  padding-right: 30px;
+  margin-top: 20px;
+}
+#copy{
+  background: #3F3F3F;
+  color: aliceblue;
+  text-align: center;
+}
